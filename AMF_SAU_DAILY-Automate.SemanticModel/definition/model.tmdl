@@ -1,0 +1,22 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["AMF_SET_SAU_REF","AMF_SET_SAU_Daily"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table AMF_SET_SAU_REF
+ref table DateTableTemplate_1c7f8dc5-c293-4d8f-a0dd-e46cdb67459d
+ref table LocalDateTable_dbc4b539-ff41-48b1-b492-4c0938761eb3
+ref table AMF_SET_SAU_Daily
+ref table LocalDateTable_1f3f1d1f-4c1b-48f1-9b79-cc1e13d187bb
+
+ref cultureInfo en-US
+

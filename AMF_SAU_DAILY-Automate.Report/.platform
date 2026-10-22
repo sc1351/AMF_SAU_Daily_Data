@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "AMF_SAU_DAILY-Automate"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "274faebb-2744-43f8-8cac-3a6a98ebdaba"
+  }
+}

@@ -1,0 +1,10 @@
+relationship 81c3cea7-9d21-41c3-ada5-7a87d89870d3
+	joinOnDateBehavior: datePartOnly
+	fromColumn: AMF_SET_SAU_REF.DATE
+	toColumn: LocalDateTable_dbc4b539-ff41-48b1-b492-4c0938761eb3.Date
+
+relationship 78f3e468-1da2-4e26-a732-7bda01babbd5
+	joinOnDateBehavior: datePartOnly
+	fromColumn: AMF_SET_SAU_Daily.DATE
+	toColumn: LocalDateTable_1f3f1d1f-4c1b-48f1-9b79-cc1e13d187bb.Date
+
